@@ -65,10 +65,10 @@ function keyPressed() {
 	}
 
 	//writw code to move fairy left and right
-	while(keyCode === LEFT_ARROW) {
+	if(keyCode === LEFT_ARROW) {
 		fairy.x = fairy.x - 12;
 	}
-	while(keyCode === RIGHT_ARROW) {
+	if(keyCode === RIGHT_ARROW) {
 		fairy.x = fairy.x + 12;
 	}
 }
